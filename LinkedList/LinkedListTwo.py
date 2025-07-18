@@ -36,7 +36,7 @@ class LinkedList:
         temp = self.head
         while temp.next.next:
             temp = temp.next
-        temp.text = None
+        temp.next = None
 
     def printList(self):
         temp = self.head
